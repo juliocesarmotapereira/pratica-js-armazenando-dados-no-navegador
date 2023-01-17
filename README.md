@@ -1,1 +1,4 @@
-# js_web_1920
+## Prática JavaScript na Web: armazenando dados no navegador
+
+### Anotações do curso
+- 
