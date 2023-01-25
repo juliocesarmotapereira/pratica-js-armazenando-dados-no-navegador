@@ -1,3 +1,4 @@
+import { carregaTarefa } from './carregaTarefa.js'
 import BotaoConclui from './concluiTarefa.js'
 import BotaoDeleta from './deletaTarefa.js'
 
@@ -22,12 +23,14 @@ export const handleNovoItem = (evento) => {
     }
 
     // SPREAD OPERATOR
-    const tarefasAtualizadas = [... tarefas, dados]
+    const tarefasAtualizadas = [...tarefas, dados]
 
     // ARMAZENANDO DADOS
     // LOCAL STORAGE
     localStorage.setItem('tarefas', JSON.stringify(tarefasAtualizadas))
     input.value = " "
+
+    carregaTarefa()
 }
 
 export const Tarefa = ({ valor, dataFormatada }) => {

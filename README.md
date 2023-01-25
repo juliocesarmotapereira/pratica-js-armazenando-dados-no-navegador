@@ -12,4 +12,6 @@ Material de estudos práticos do Programa ONE da Oracle
 * Armazenar dados sem encerrar a sessão com e LocalStorage
 * Transformar objetos em string utilizando JSON.stringify()
 * Trabalhando com módulos, arquitetura modular
+* Converter os itens que antes eram strings em objetos com JSON.parse
+* indexOf: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
 * 
