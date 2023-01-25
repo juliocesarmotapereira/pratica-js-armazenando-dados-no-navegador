@@ -14,4 +14,9 @@ Material de estudos práticos do Programa ONE da Oracle
 * Trabalhando com módulos, arquitetura modular
 * Converter os itens que antes eram strings em objetos com JSON.parse
 * indexOf: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf
-* 
+* JS método para ordenação: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+* Filtrar elementos de um array
+* Ordenar elementos do LocalStorage
+* JS forEach: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+* Alterar um estado utilizando operador de negação
+* Remover dados do LocalStorage utilizando o método splice
